@@ -1,0 +1,24 @@
+Project Title: Image Processing Toolkit
+
+Description:
+This comprehensive Image Processing Toolkit is a culmination of four parts, each addressing essential aspects of image manipulation and enhancement. 
+The toolkit provides a versatile set of functions for image quantization, color channel manipulation, adding masks, and achieving a unique cartoonify effect.
+
+Part 1 - Image Loading, Saving, and Displaying:
+This section introduces foundational image processing functionalities. 
+With functions like image_load and image_save, it enables users to effortlessly load, save, and display images, forming the groundwork for subsequent image manipulation tasks.
+
+Part 2 - Color Channel Manipulation:
+In this segment, the toolkit delves into color channel manipulation. 
+The change_intensity function allows users to adjust the intensity of a specific color channel, offering granular control over image colors. 
+The merge_channels function facilitates the merging of modified color channels to reconstruct the final image.
+
+Part 3 - Quantization (Color Reduction):
+Quantization, or color reduction, is a critical image processing task addressed in Part 3. 
+The quantize function efficiently reduces the number of colors in an image, using simple calculations or advanced machine learning algorithms. 
+The quantize_colored_image function extends this capability to color images, preserving visual fidelity while reducing the color palette.
+
+Part 4 - Cartoonify Effect and Mask Operations:
+The final part of the toolkit introduces advanced image manipulation techniques. 
+The add_mask function enables users to blend two images seamlessly using a mask. 
+The highlight of this section is the cartoonify function, which combines edge detection, color quantization, and other processes to produce a captivating cartoon-like effect on images.
